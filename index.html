@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="Style/style.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/96282978db.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header" style="background-image: 'Images/Ommie.jpeg'">
+      <div class="container">
+        <nav>
+          <h1>PORT<span>FOLIO</span></h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact- Me</a></li>
+            <i class="fas fa-times close" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p style="font-size: 30px;">Full Stack Web Developer</p>
+          <h1>Hi, I'm <span>OM</span> JAJU</h1>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------About Me------------------------>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Style\Images\passport.jpeg" alt="Om Profile" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p style=" font-size: 22px;">
+              Hello, My name is Om Jaju.I'm pursing Btech in Electronics and
+              Computer engineering Undergraduate from Sreenidhi Institute of
+              Science and Technology.I'm a Technology Enthusiast. I wish to use
+              my technical acumen to contribute to a team that works as scale
+              and create a positive impact on the society.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="education">
+              <ul>
+                <li>
+                  <span>2020 – 2024</span><br />
+                  Sreenidhi Institute of Science and Technology, B.Tech in
+                  Electronics and Computer Engineering. Hyderabad, India
+                </li>
+                <li>
+                  <span>2018 – 2020</span><br />
+                  Sri Chaitanya Junior College, Intermediate(MPC). Hyderabad,
+                  India
+                </li>
+                <li>
+                  <span>2017 – 2018</span><br />
+                  HVS Public School, 10th Standard. Hyderabad, India
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-stats">
+          <h1 class="stat-title">My Skills</h1>
+          <div class="progress-bars">
+            <div class="progress-bar">
+              <p class="prog-title">html5</p>
+              <div class="progress-con">
+                <p class="prog-text">80%</p>
+                <div class="progress">
+                  <span class="html"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">css3</p>
+              <div class="progress-con">
+                <p class="prog-text">85%</p>
+                <div class="progress">
+                  <span class="css"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">javascript</p>
+              <div class="progress-con">
+                <p class="prog-text">70%</p>
+                <div class="progress">
+                  <span class="js"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">ReactJS</p>
+              <div class="progress-con">
+                <p class="prog-text">75%</p>
+                <div class="progress">
+                  <span class="react"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">NodeJS</p>
+              <div class="progress-con">
+                <p class="prog-text">67%</p>
+                <div class="progress">
+                  <span class="node"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">Python</p>
+              <div class="progress-con">
+                <p class="prog-text">74%</p>
+                <div class="progress">
+                  <span class="python"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">Ethical Hacking</p>
+              <div class="progress-con">
+                <p class="prog-text">75%</p>
+                <div class="progress">
+                  <span class="Ethical"></span>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <p class="prog-title">DBMS</p>
+              <div class="progress-con">
+                <p class="prog-text">77%</p>
+                <div class="progress">
+                  <span class="DBMS"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------Services------------------------>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Web design refers to the design of websites that are displayed on
+              the internet. It usually refers to the user experience aspects of
+              website development rather than software development. Web design
+              used to be focused on designing websites for desktop browsers.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Web_design">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-user-ninja"></i>
+            <h2>Ethical Hacking</h2>
+            <p>
+              Ethical hacking involves an authorized attempt to gain
+              unauthorized access to a computer system, application, or data.
+              Carrying out an ethical hack involves duplicating strategies and
+              actions of malicious attackers. This practice helps to identify
+              security vulnerabilities which can then be resolved before a
+              malicious attacker has the opportunity to exploit them.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Certified_Ethical_Hacker"
+              >Learn More</a
+            >
+          </div>
+          <div>
+            <i class="fa-brands fa-python"></i>
+            <h2>Python Developer</h2>
+            <p>
+              A Python Developer is responsible for coding, designing,
+              deploying, and debugging development projects, typically on the
+              server-side (or back-end). They may, however, also help
+              organizations with their technological framework.
+            </p>
+            <a href="https://www.coursera.org/articles/python-developern"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----------------------Projects------------------------->
+    <div id="projects">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Style\Images\yoga1.jpg" alt="Yoga Pose" />
+            <div class="layer">
+              <h3>Fitness Guru - A Yoga website</h3>
+              <p>
+                A platform for the every age group to do asans according to
+                their age preferences.
+              </p>
+              <a
+                href="https://omjaju18.github.io/FSD%20YOGA%20WEBSITE-%20FITNESS%20GURU%20FULL%20PROJECT/"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./Style/Images/dog.jpg" alt="Yoga Pose" />
+            <div class="layer">
+              <h3>yahdog - A Dog Adoption website</h3>
+              <p>
+                A platform for any dog lovers to adopt dogs easily and at low
+                prices.
+              </p>
+              <a href="https://omjaju18.github.io/Yahdog/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./Style/Images/linkedin.png" alt="Yoga Pose" />
+            <div class="layer">
+              <h3>Clone of Linkedin(Ongoing)</h3>
+              <p>
+                Constructed a linkedin resposnsive Website with the help of
+                ReactJS and NodeJS. I used here Firebase and also
+                react-router-dom
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <a href="https://github.com/omjaju18" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!---------------------Contact-me--------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i> omjaju03@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +91-8688960161</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/omjaju_18/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/om-jaju-4b17b0243"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/omjaju18"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="./OM JAJU Resume.pdf" download class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+
+          <div class="contact-right"></div>
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="Email"
+              placeholder="Your Email-id"
+              required
+            />
+            <textarea
+              name="Message"
+              rows="6"
+              placeholder="Your message"
+            ></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @OM JAJU 2024.</p>
+      </div>
+    </div>
+
+    <!--------------------Javascript--------------------------->
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbx9E_aVAEL5nSn0YMoB32KdErU-yl8m5BbZfFIA5yedS-FT5G0FoMRc0qQ2ZxC870U/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
